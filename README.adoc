@@ -1,0 +1,22 @@
+= pdf tool
+
+._link_:
+* https://pdfbox.apache.org/1.8/cookbook/workingwithmetadata.html[working with metadata]
+
+.PDF Document Information
+* author: author of the document.
+* COS Object: underlying dictionary that this object wraps.
+* creationDate: the creation date of the document.
+* creator: the creator of the document.
+* customMetadataValue(String fieldName): the value of a custom metadata information field for the document.
+* keywords: the keywords of the document.
+* metadataKeys: the keys of all metadata information fields for the document.
+* modificationDate: the modification date of the document.
+* producer: the producer of the document.
+* propertyStringValue(String propertyKey): properties String value.
+* subject: the subject of the document.
+* title: the title of the document.
+* trapped: the trapped value for the document.
+
+== Goal of the application
+Change pdf metadata from android application
