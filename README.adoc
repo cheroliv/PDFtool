@@ -1,0 +1,4 @@
+= pdf tool
+
+._link_:
+* https://pdfbox.apache.org/1.8/cookbook/workingwithmetadata.html[working with metadata]
