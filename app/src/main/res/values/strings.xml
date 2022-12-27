@@ -10,6 +10,5 @@
     <string name="key_words_label">Key Words</string>
     <string name="metadata_keys_label">Metadata Keys</string>
     <string name="trapped_label">Trapped</string>
-    <string name="browse_file_label">Browse File</string>
-    <string name="select_a_pdf_file_label">Select a PDF file</string>
+    <string name="select_a_pdf_file_label">Choose a PDF</string>
 </resources>
