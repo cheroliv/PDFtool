@@ -20,3 +20,11 @@
 
 == Goal of the application
 Change pdf metadata from android application
+
+== features
+
+=== list available stockages (TODO)
+
+=== list folder and files (TODO)
+
+

@@ -11,4 +11,5 @@
     <string name="metadata_keys_label">Metadata Keys</string>
     <string name="trapped_label">Trapped</string>
     <string name="select_a_pdf_file_label">Choose a PDF</string>
+    <string name="save_as">save as</string>
 </resources>
