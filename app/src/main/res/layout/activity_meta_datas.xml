@@ -10,9 +10,10 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="save copy"
+        android:layout_marginTop="32dp"
+        android:text="copy"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
-        tools:layout_editor_absoluteY="530dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewTrapped" />
 
     <TextView
         android:id="@+id/textView"
@@ -113,6 +114,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewAuthor"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -124,6 +126,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="date"
+        android:minHeight="48dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewCreationDate"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -134,6 +137,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="date"
+        android:minHeight="48dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewModificationDate"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -144,6 +148,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewProducer"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -155,6 +160,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewTitle"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -166,6 +172,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -177,6 +184,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewKeyWords"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -188,6 +196,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewMetadataKeys"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -199,6 +208,7 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="Name"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewTrapped"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -208,7 +218,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="save original"
+        android:text="save"
         app:layout_constraintStart_toStartOf="@+id/textViewTrapped"
         app:layout_constraintTop_toBottomOf="@+id/textViewTrapped" />
 </androidx.constraintlayout.widget.ConstraintLayout>
