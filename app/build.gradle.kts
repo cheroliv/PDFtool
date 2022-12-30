@@ -11,7 +11,8 @@ android {
 
     defaultConfig {
         applicationId = "com.cheroliv.pdf"
-        minSdk = 23
+        minSdk = 29
+//        minSdk = 23
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
