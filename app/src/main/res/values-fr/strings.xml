@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="save_as">save as</string>
+    <string name="author_label">Auteur</string>
+    <string name="creation_date_label">Date De Creation </string>
+    <string name="modification_date_label">Date De Modification </string>
+    <string name="producer_label">Producteur</string>
+    <string name="title_label">Titre</string>
+    <string name="subject_label">Sujet</string>
+    <string name="key_words_label">Mot-Clef</string>
+    <string name="metadata_keys_label">Metadata-Clef</string>
+    <string name="select_a_pdf_file_label">Selectionne un PDF</string>
+    <string name="save">enregistrer</string>
+    <string name="clear">efface</string>
 </resources>

@@ -6,7 +6,6 @@
     android:layout_height="match_parent">
 
 
-
     <TextView
         android:id="@+id/textViewScreenTitle"
         android:layout_width="wrap_content"
@@ -107,7 +106,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="author"
+        android:text="@string/author_label"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewAuthor"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -120,7 +119,8 @@
         android:inputType="date"
         android:minHeight="48dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewCreationDate"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextDate2"
@@ -131,7 +131,8 @@
         android:inputType="date"
         android:minHeight="48dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewModificationDate"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -141,7 +142,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="producer"
+        android:text="@string/producer_label"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewProducer"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -153,7 +154,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="title"
+        android:text="@string/title_label"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewTitle"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -165,7 +166,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="subject"
+        android:text="@string/subject_label"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewSubject"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -177,7 +178,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="key words"
+        android:text="@string/key_words_label"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewKeyWords"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -189,7 +190,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="metada keys"
+        android:text="@string/metadata_keys_label"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewMetadataKeys"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -201,16 +202,17 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="trapped"
+        android:text="@string/trapped_label"
         app:layout_constraintBaseline_toBaselineOf="@+id/textViewTrapped"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
         android:id="@+id/saveButtonId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="save"
+        android:text="@string/clear"
+        app:icon="@android:drawable/ic_notification_clear_all"
         app:layout_constraintStart_toStartOf="@+id/textViewTrapped"
         app:layout_constraintTop_toBottomOf="@+id/textViewTrapped" />
 
@@ -218,9 +220,9 @@
         android:id="@+id/saveAsButtonId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/save_as"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTrapped" />
+        android:text="@string/save"
+        app:icon="@android:drawable/ic_menu_save"
+        app:layout_constraintBaseline_toBaselineOf="@+id/saveButtonId"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

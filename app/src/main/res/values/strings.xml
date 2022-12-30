@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">PDFtool</string>
-    <string name="pdf_metadatas_screen_title">Pdf Metadatas</string>
+    <string name="app_name" translatable="false">PDFtool</string>
+    <string name="pdf_metadatas_screen_title" translatable="false">Pdf Metadatas</string>
     <string name="author_label">Author</string>
     <string name="creation_date_label">Creation Date</string>
     <string name="modification_date_label">Modification Date</string>
@@ -9,7 +9,8 @@
     <string name="subject_label">Subject</string>
     <string name="key_words_label">Key Words</string>
     <string name="metadata_keys_label">Metadata Keys</string>
-    <string name="trapped_label">Trapped</string>
+    <string name="trapped_label" translatable="false">Trapped</string>
     <string name="select_a_pdf_file_label">Choose a PDF</string>
-    <string name="save_as">save as</string>
+    <string name="save">save</string>
+    <string name="clear">clear</string>
 </resources>
