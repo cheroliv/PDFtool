@@ -1,18 +1,15 @@
 package com.cheroliv.pdf
 
 import android.content.Context
-import android.content.res.Configuration
 import android.content.res.Configuration.UI_MODE_NIGHT_MASK
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
-import android.graphics.Color
 import android.graphics.Color.DKGRAY
 import android.graphics.Typeface
 import android.graphics.Typeface.MONOSPACE
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.getColor
 import com.cheroliv.pdf.R.color.purple_200
-
+@Suppress("MemberVisibilityCanBePrivate")
 object StyleDsl {
 
     fun styleWith(

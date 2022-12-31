@@ -13,9 +13,6 @@ import org.koin.dsl.module
 class PdfToolApplication : Application() {
 
     companion object {
-
-        @Suppress("SpellCheckingInspection")
-        const val LOGTAG = "foobar"
         @Suppress("unused")
         fun showToast(
             mainActivity: MainActivity,
@@ -25,8 +22,8 @@ class PdfToolApplication : Application() {
             message,
             LENGTH_SHORT
         ).show()
-
     }
+
     override fun onCreate() {
         super.onCreate()
         startKoin {
