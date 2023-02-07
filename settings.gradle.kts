@@ -14,5 +14,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "PDFtool"
+rootProject.name = "pdf-utils"
 include (":app")
